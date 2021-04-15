@@ -6,7 +6,8 @@ var viz, sheet, workbook; //we need this to be semi-global so we can reference i
         var containerDiv = document.getElementById("vizContainer"),
             
             //url = "https://demo.tableau.com/t/BaileyFerrari/views/NewInnovationsDashboardDemo/RotationScheduling?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link", //Change to URL for View required. 
-            url = "https://public.tableau.com/views/WorldIndicators/GDPpercapita?:language=en&:display_count=n&:origin=viz_share_link", //Testing HTTPS link from embedded analytics playbook
+            //url = "https://public.tableau.com/views/WorldIndicators/GDPpercapita?:language=en&:display_count=n&:origin=viz_share_link", //Testing HTTPS link from embedded analytics playbook. THis worked!
+            url = "https://public.tableau.com/views/SupplyChainCaseStudy/SupplyChainInsights?:language=en&:display_count=n&:origin=viz_share_link"
             options =
             {
                 height: "775px",
