@@ -5,7 +5,8 @@ var viz, sheet, workbook; //we need this to be semi-global so we can reference i
     {
         var containerDiv = document.getElementById("vizContainer"),
             
-            url = "https://demo.tableau.com/t/BaileyFerrari/views/NewInnovationsDashboardDemo/RotationScheduling?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link", //Change to URL for View required. 
+            //url = "https://demo.tableau.com/t/BaileyFerrari/views/NewInnovationsDashboardDemo/RotationScheduling?:showAppBanner=false&:display_count=n&:showVizHome=n&:origin=viz_share_link", //Change to URL for View required. 
+            url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita", //Testing link from embedded analytics playbook
             options =
             {
                 height: "775px",
